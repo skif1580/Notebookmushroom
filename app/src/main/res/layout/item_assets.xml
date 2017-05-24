@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_assets_container"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="5dp"
+    android:backgroundTint="@color/cardview_dark_background"
+    android:clickable="true"
+    android:elevation="20dp"
+    app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="1dp">
+
+            <ImageView
+                android:clickable="true"
+                android:id="@+id/iv_photo_mushroom"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_name_mushroom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false"
+                android:layout_below="@+id/iv_photo_mushroom"
+                android:background="@color/coloListItem"
+                android:gravity="center_horizontal"
+                android:hint="name"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>

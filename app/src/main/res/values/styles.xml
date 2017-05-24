@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">?attr/actionMenuTextColor</item>
+    </style>
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/my_color1</item>
+        <item name="android:textColorSecondary">@color/my_color2</item>
+        <item name="android:textColor">@color/my_color3</item>
+        <item name="android:colorBackground">@color/mtrl_white_100</item>
+        <item name="android:actionMenuTextColor">@color/your_color</item>
+    </style>
+
+</resources>

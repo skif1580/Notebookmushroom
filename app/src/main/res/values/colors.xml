@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f2f479</color>
+    <color name="colorPrimaryDark">#463818</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="coloListItem">#eef2f25f</color>
+    <color name="detail_background">#a7fa22</color>
+    <color name="default_background">#eef2f25f</color>
+    <color name="drawer_color">#b75a0d</color>
+    <color name="your_color">#abf516</color>
+    <color name="my_color1">#f48989</color>
+    <color name="my_color2">#fce644</color>
+    <color name="my_color3">#f5ab42</color>
+    <color name="mtrl_white_100">#5b3417</color>
+    <color name="color_texttoolbar">#ffffff</color>
+</resources>
